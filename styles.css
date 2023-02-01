@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background: #F2F2F2;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+input[type=checkbox] .checkbox {
+    display: none;
+    pointer-events: none;
+    box-sizing: border-box;
+}
+
+input[type=checkbox]+label {
+    cursor: pointer;
+}
+
+svg {
+    width: 2em;
+    border-radius: 12%;
+    border: 1px solid black;
+    fill: black;
+    background-color: white;
+    margin: 10%;
+    outline: 1px solid transparent;
+    outline-offset: 4px;
+}
+
+svg polyline {
+    stroke: white;
+}
